@@ -7,6 +7,9 @@ TOKEN="1675228463:AAGWWwMOx3mGstj49_B5NOjFXjgyXFia9xo"
 
 bot=telegram.Bot(token=TOKEN)
 bot_user=bot.getMe()
-print(bot_user)
+print(bot_user.id)
+print(bot_user.first_name)
+print(bot_user.username)
+print(bot_user.can_join_groups)
 
 
