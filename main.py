@@ -14,5 +14,6 @@ bot_user=bot.getMe()
 # print(bot_user.username)
 # print(bot_user.can_join_groups)
 
-bot.send_message(chat_id=1091584118,text="111")
-
+# bot.send_message(chat_id=1091584118,text="111")
+a=bot.get_updates()
+print(a[-1].message.text)
