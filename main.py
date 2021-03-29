@@ -22,5 +22,5 @@ bot_user=bot.getMe()
 # print(a[-1].message.text)
 
 bot.send_dice(chat_id=1091584118)
-bot.send_message(chat_id=1091584118,disable_notification=True,text="it is dice")
-
+bot.send_message(chat_id=1091584118,disable_notification=False,text="it is dice")
+bot.send_contact(chat_id=1091584118,phone_number="+998995190377",first_name="elbek")
