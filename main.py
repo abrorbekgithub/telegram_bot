@@ -16,12 +16,12 @@ bot_user=bot.getMe()
 # print(bot_user.username)
 # print(bot_user.can_join_groups)
 
-# bot.send_message(chat_id=1091584118,text="111")
+bot.send_message(chat_id=1091584118,text="111")
 
-# a=bot.get_updates()
-# print(a[-1].message.text)
+a=bot.get_updates()
+print(a[-1].message.text)
 
-# bot.send_dice(chat_id=1091584118)
-# bot.send_message(chat_id=1091584118,disable_notification=False,text="it is dice")
-# bot.send_contact(chat_id=1091584118,phone_number="+998995190377",first_name="elbek")
+bot.send_dice(chat_id=1091584118)
+bot.send_message(chat_id=1091584118,disable_notification=False,text="it is dice")
+bot.send_contact(chat_id=1091584118,phone_number="+998936401030",first_name="abrorbek")
 bot.send_poll(chat_id=1091584118,question="oshga qaysi kuni borgan maqul",options=["dushanba","seshanba","chorshanba","payshanba","juma","shanba"])
